@@ -11,7 +11,7 @@ wn = turtle.Screen()
 lorelei = turtle.Turtle()
 length = 1
 
-for i in range(50):
+for i in range(30):
     color = random.choice(colors)
     lorelei.forward(length)
     lorelei.right(90)
