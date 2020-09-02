@@ -1,10 +1,9 @@
 import turtle
 import random
-from random import randint
 colors = []
 
 for i in range(int(input("How many colors?: "))):
-    colors.append('#%06X' % randint(0, 0xFFFFFF))
+    colors.append('#%06X' % random.randint(0, 0xFFFFFF))
 
 
 
